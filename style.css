@@ -1,0 +1,91 @@
+
+nav{
+    display: flex;
+    justify-content:space-around;
+}
+.list1{
+    list-style: none;
+    display: flex;
+    gap: 51px;
+    text-decoration: none;
+}
+.btn{
+    background-color: rgb(96, 232, 96);
+    padding: 14px 25px;
+    border-radius: 20px;
+    color: hsl(0, 20%, 93%);
+    font-size: medium;
+}
+.bgimage{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 10px auto;
+
+}
+
+.contant{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+}
+div h1{
+    text-align: center;
+}
+div p{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(196, 244, 227);
+}
+
+.card-container{
+    display: flex;
+    gap: 11px;
+    justify-content: center;
+}
+.card{
+    width: 200px;
+    border: 1px solid rgb(249, 239, 229);
+    box-shadow: 3px 3px 3px 3px black;
+    border-radius: 20px;
+}
+.card img {
+    width: 20%;
+    border-radius: 10px;
+    
+}
+.card h3{
+    text-align: center;
+}
+.card p{
+    text-align: center;
+}
+.container2 img{
+    height: 300px;width: 300px;
+}
+.container2{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+footer{
+    text-align: center;
+}
+.btn4{
+    border-radius: 5px;
+    background-color: rgb(44, 160, 44);
+    border: 10px;
+    padding: 8px;
+}

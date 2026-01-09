@@ -41,10 +41,28 @@ nav{
 }
 div h1{
     text-align: center;
+    ;
 }
 div p{
     text-align: center;
 }
+
+.btn1{
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+.btn2{
+    border-radius:5px ;
+    width: px;
+    height: 30px;
+    background-color: rgb(128, 189, 128);
+}
+
+.btn3{
+    background-color: none;
+}
+
+
 
 body{
     background-color: rgb(196, 244, 227);
@@ -95,4 +113,11 @@ body{
 }
 .copy{
     text-align: center;
+}
+.contant h2{
+    color: aliceblue;
+}
+
+.contant p{
+    color: antiquewhite;
 }
